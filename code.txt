@@ -1,0 +1,42 @@
+°Number 1
+#include <iostream>
+ 
+int main()
+{
+	char first_name[50], middle_name[50], last_name[50];
+	
+    std::cout << "What is your First name: ";
+    std::cin >> first_name;
+	std::cout << "What is your Middle name: ";
+    std::cin >> middle_name;
+	std::cout << "What is your Last name: ";
+    std::cin >> last_name;
+	
+    std::cout << "\nYour First name is " << first_name;
+	std::cout << "\nYour Middle name is " << middle_name;
+	std::cout << "\nYour Last name is " << last_name;
+	
+	return 0;
+}
+--------------------------------------------------------------------
+°Number 2
+#include <iostream> 
+
+int main() 
+{ 
+  int n1, n2; 
+   
+  std::cout << "Enter 1st number: "; 
+  std:: cin >> n1; 
+  std::cout << "Enter 2nd number: "; 
+  std:: cin >> n2; 
+   
+  if( n1 > n2 ) 
+    std::cout << "\n" << n1 << " is greater than " << n2 << "\n" << n2 << " is less than " << n1; 
+  else if ( n1 == n2 ) 
+    std::cout << "\n" << n1 << " and " << n2 << " are the same"; 
+  else 
+    std::cout << "\n" << n2 << " is greater than " << n1 << "\n" << n1 << " is less than " << n2; 
+
+return 0;
+}
